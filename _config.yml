@@ -1,0 +1,22 @@
+# Site settings
+title: Whatever Pages
+author: Nobody
+author_avatar: /images/anEye.png
+email: brrr09@gmail.com
+description: Death's-head Hawkmoth
+baseurl: "" # optional
+url: "https://n33m0.github.io"
+image: "/images/moth.png"
+#twitter_username: foo_bar
+github_username: n33m0
+github_repo: n33m0/n33m0.github.io
+google_analytics: UA-58420845-1
+disqus: n33m0githubio
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
