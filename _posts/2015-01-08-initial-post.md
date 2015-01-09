@@ -13,4 +13,4 @@ category: CTF, Exploit exercises
 Here I will try to periodically publish and update my subjective solutions and views on this issues. I haven't any assumptions for how long it will take to have enough for me, but let's get going (with [Nebula](http://exploit-exercises.com/nebula), an ideal place for people new to Linux exploitation =))
 
 
-<span class="pull-right">My thoughts is started [here](http://localhost:4000/ctf,%20nebula/2015/01/09/suspicious-directories/)</span>
+<span class="pull-right">My thoughts is started [here](/ctf,%20nebula/2015/01/09/suspicious-directories/)</span>
