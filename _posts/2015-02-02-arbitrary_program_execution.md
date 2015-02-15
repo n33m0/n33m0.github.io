@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arbitrary execution"
+title: "Command-command-command"
 category: CTF, Nebula
 ---
 
