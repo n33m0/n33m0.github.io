@@ -12,7 +12,7 @@ category: CTF, Nebula
 
 <br />
 
-After code review we can note that [strstr](http://www.tutorialspoint.com/c_standard_library/c_function_strstr.htm) makes check that filename which one we passed as input doesn't contain substring "*token*" or as result you'll get "*EXIT_FAILURE*" [status](http://www.gnu.org/software/libc/manual/html_node/Exit-Status.html). To bypass it, we'll use [symbolic](http://linuxg.net/the-linux-and-unix-links-the-symbolic-link-vs-the-hard-link/) link ([ln -s](http://unixhelp.ed.ac.uk/CGI/man-cgi?ln)).
+After code review we can note that [strstr](http://www.tutorialspoint.com/c_standard_library/c_function_strstr.htm) makes check that filename which one we passed as input doesn't contain substring "*token*" or as result you'll get "*EXIT_FAILURE*" [status](http://www.gnu.org/software/libc/manual/html_node/Exit-Status.html). As we have no permissions to rename/copy/move that token, to bypass restriction we'll use [symbolic](http://linuxg.net/the-linux-and-unix-links-the-symbolic-link-vs-the-hard-link/) link ([ln -s](http://unixhelp.ed.ac.uk/CGI/man-cgi?ln)).
 
 {% highlight sh linenos %}
 level04@nebula:~$ cd /home/flag04
