@@ -64,3 +64,5 @@ You have successfully executed getflag on a target account
 {% endhighlight %}
 
 Line #11, indicates the end of destination point. BTW "*192.168.1.3*" is address of Nebula virtual machine in my local network (use [ifconfig](http://linux.die.net/man/8/ifconfig) to find out for your case).
+
+P.S. You could also try to deal with request from web browser or [wget](http://stackoverflow.com/questions/9830242/what-is-o-option-means-for-wget) [util](http://linux.die.net/man/1/wget) + some online [url encoder](http://www.url-encode-decode.com/) (or at least [wiki](https://en.wikipedia.org/wiki/Percent-encoding) percent-encoding of reserved characters table) as helper for clear argument performing.
