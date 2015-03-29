@@ -7,6 +7,7 @@ description: Death's-head Hawkmoth
 baseurl: "" # optional
 url: "https://n33m0.github.io"
 image: "/images/moth.png"
+paginate: 5
 #twitter_username: foo_bar
 github_username: n33m0
 github_repo: n33m0/n33m0.github.io

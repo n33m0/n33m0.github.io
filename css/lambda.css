@@ -359,6 +359,15 @@ pre code {
 	font-family: 'Amaranth', sans-serif;
 	font-size: 35px;
  }
+
+.pagination {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 15px;
+  border-top: 2px solid black;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: center;
+}
  
 .pull-right {
 	float: right;
@@ -421,6 +430,6 @@ p :first-line {
 
 .rss-subscribe {
 	border-top: 2px solid black;
-    margin: 40px auto 5px;
+    margin: 25px auto 5px;
     padding-top: 25px;
 }

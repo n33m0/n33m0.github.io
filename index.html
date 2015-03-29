@@ -6,10 +6,25 @@ layout: default
 
   	{% assign index = true %}
 
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
 		{% assign page = post %}
 		{% include post.html %}
     {% endfor %}
+
+    <!-- Pagination links -->
+		<div class="pagination">
+		  {% if paginator.previous_page %}
+		    <a href="{{ paginator.previous_page_path }}" class="previous">PREVIOUS</a>
+		  {% else %}
+		    <span class="previous">PREVIOUS</span>
+		  {% endif %}
+		  <span class="page_number"> - page: {{ paginator.page }} of {{ paginator.total_pages }} - </span>
+		  {% if paginator.next_page %}
+		    <a href="{{ paginator.next_page_path }}" class="next">NEXT</a>
+		  {% else %}
+		    <span class="next ">NEXT</span>
+		  {% endif %}
+		</div>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or browse <a href="https://github.com/{{ site.github_site_repo }}" target="_blank">source on GitHub</a>.</p>
 
