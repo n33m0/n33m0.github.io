@@ -32,7 +32,7 @@ level08@nebula:/home/flag08$ nc -l 8888 < ./capture.pcap
 # And then on the outer host:
 nobody@home$ wget -O capture.pcap 192.168.56.102:8888
 {% endhighlight %}
-Checking out on the wireshark:
+Secondly, check out on the wireshark:
 <center>
 	<img src="/images/2015-04-04-world_readable_files_strike_again/screen_1.png">
 </center>
