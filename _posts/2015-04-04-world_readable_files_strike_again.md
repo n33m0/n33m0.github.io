@@ -14,7 +14,7 @@ All right!!! So basically, what do we have to start with, is a single [pcap](htt
 {% highlight sh linenos %}
 -rw-r--r-- 1 root   root    8302 2011-11-20 21:22 capture.pcap
 {% endhighlight %}
-If working with TCP based protocols it can be very helpful to see the data from a TCP stream in the way that the application layer sees it. Perhaps you are looking for passwords in a Telnet stream, or you are trying to make sense of a data stream (From the "[_7.2. Following TCP streams_](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowTCPSection.html)" wireshark doc ref).
+If working with TCP based protocols it can be very helpful to see the data from a TCP stream in the way that the application layer [sees it](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowTCPSection.html).
 
 
 Without doubts [Wireshark](http://en.wikipedia.org/wiki/Wireshark) is a wounderful tool (nonetheless, we aren't able to use [X11-server](https://en.wikipedia.org/wiki/X_Window_System) on Nebula VM. Actually, all is [possible =)](http://www.quora.com/How-valid-are-the-ideas-in-Athenes-theory-of-everything) but that's definitely is not the best way). It worth to notice that there's also exist console version called [tshark](https://www.wireshark.org/docs/man-pages/tshark.html) but unfortunately, attempt to setup it on VM due to some failures was unsuccessful. That's why I had to use what was at hand, in particular [tcpflow](http://www.circlemud.org/jelson/software/tcpflow/):
